@@ -47,7 +47,7 @@ footer p {
   bottom: 50px;
   left: 0px;
   right: 0px;
-  min-width: 100%;
+  width: 100%;
   height: 25px;
   margin-bottom: 0px;
   border-bottom: 1px;
@@ -69,8 +69,13 @@ footer ul {
     width: 97.4%;
     height: 50px;
 }
-footer ul .right a{
-    /*This is the bottom right lists box */
-    position: relative;
-    
-  }
+a:link {
+  text-decoration: none;
+  color: grey;
+}
+a:visited {
+  color: grey;
+}
+a:hover {
+  text-decoration: underline;
+}
